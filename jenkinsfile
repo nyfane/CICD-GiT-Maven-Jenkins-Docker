@@ -3,7 +3,7 @@ pipeline {
     tools{
         maven 'M2_HOME'
     }
-    environement {
+    environment {
         registry = '823008317281.dkr.ecr.us-west-2.amazonaws.com/myjob'
         dockerimage = ''
 
